@@ -1,0 +1,23 @@
+.users{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    margin: 5px;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(139, 135, 135);
+    color: black;
+    position: relative;
+}
+.delete-user{
+position: absolute;
+top: 5px;
+right: 5px;
+background-color:rgb(201, 200, 200);
+border: none;
+}
+.form label{
+margin: 5px 5px;
+}
